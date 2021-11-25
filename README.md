@@ -18,24 +18,41 @@ Demo: https://aymaneMx.com
 - :zap: generate sitemap (visit /sitemap.xml)
 - :rocket: One click deployment to netlify 
 
+### Prerequisites
+
+1. create [Notion](https://www.notion.so/) account 
+2. duplicate [this template](https://aymanemx.notion.site/aymanemx/ceef6f1a895a46b2a0e4a87b41405547?v=8427738adccd4b2a8c28156be3757156) by clicking on duplicate button oon top of the page.
+3. make your notion table public (by clicking to share button on top of the page)
+4. Grab the table id from the table link:
+eg: 
+```
+link: https://aymanemx.notion.site/aymanemx/ceef6f1a895a46b2a0e4a87b41405547?v=8427738adccd4b2a8c28156be3757156
+id: ceef6f1a895a46b2a0e4a87b41405547
+```
+5. Do the same thing for about page id
+5. get your Google analytics id (optional)
+6. now you can click to the deploy button and fill the netlify form
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aymaneMx/nuxt-portfolio-dev)
+
+
 
 ### Build Setup
 
-create a `.env.development` file with the following variables
+create a `.env` file with the following variables
 
 ```
-BASE_URL=https://lmax.com
+BASE_URL=https://aymanemx.com
 GOOGLE_ANALYTICS_ID=
 NOTION_TABLE_ID="ceef6f1a895a46b2a0e4a87b41405547"
 NOTION_ABOUT_PAGE_ID="ad2346af0894443d8906cf78de4f310f"
-GITHUB_USERNAME=aymanemx
-DEV_LOGO="MyPortfolio."
-DEV_NAME="Aymane tsu"
-DEV_DESCRIPTION="this is a cool dedscription"
+GITHUB_USERNAME=aymaneMx
+DEV_LOGO="AymaneMx"
+DEV_NAME="Aymane max"
+DEV_DESCRIPTION="a passionate Python developer from Morocco who loves to build and deliver quality products."
 DEV_ROLE="Software Engineer"
-DEV_GITHUB_LINK=https://www.linkedin.com/in/aymane-mimouni/
-DEV_TWITTER_LINK=https://www.linkedin.com/in/aymane-mimouni/
-DEV_LINKEDIN_LINK=https://www.linkedin.com/in/aymane-mimouni/
+DEV_GITHUB_LINK="https://github.com/aymaneMx"
+DEV_TWITTER_LINK="https://twitter.com/aymane_max"
+DEV_LINKEDIN_LINK="https://www.linkedin.com/in/aymane-mimouni/"
 ```
 
 then:
@@ -47,23 +64,6 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 ```
-
-
-### Prerequisites
-
-1. create [Notion](https://www.notion.so/) account
-2. duplicate [this template](https://aymanemx.notion.site/aymanemx/ceef6f1a895a46b2a0e4a87b41405547?v=8427738adccd4b2a8c28156be3757156) by clicking on duplicate button oon top of the page.
-3. make your notion table public (by clicking to share button on top of the page)
-4. Grab the table id from the table link:
-eg: 
-```
-if the link is: https://aymanemx.notion.site/aymanemx/ceef6f1a895a46b2a0e4a87b41405547?v=8427738adccd4b2a8c28156be3757156
-the id is: ceef6f1a895a46b2a0e4a87b41405547
-```
-5. get your Google analytics id (optional)
-6. now you can click to the deploy button 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aymaneMx/nuxt-portfolio-dev)
-
 
 ### Credits 
 
