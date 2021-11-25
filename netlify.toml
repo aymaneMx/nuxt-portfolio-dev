@@ -6,11 +6,11 @@
 
 
 [template.environment]
-  BASE_URL=https://aymanemx.com
+  BASE_URL="https://aymanemx.com"
   GOOGLE_ANALYTICS_ID=
   NOTION_TABLE_ID="ceef6f1a895a46b2a0e4a87b41405547"
   NOTION_ABOUT_PAGE_ID="ad2346af0894443d8906cf78de4f310f"
-  GITHUB_USERNAME=aymaneMx
+  GITHUB_USERNAME="aymaneMx"
   DEV_LOGO="AymaneMx"
   DEV_NAME="Aymane max"
   DEV_DESCRIPTION="a passionate Python developer from Morocco who loves to build and deliver quality products."
