@@ -16,7 +16,7 @@ a portfolio for developers
 
 **Build Setup**
 
-create a `.env` file with the following variables
+create a `.env.development` file with the following variables
 
 ```
 BASE_URL=https://lmax.com
@@ -46,8 +46,8 @@ $ yarn dev
 
 **todo**
 
-- [ ] how to duplicate the same template easily 
-- [ ] clean the project more (about, page)
+- [x] how to duplicate the same template easily 
+- [x] clean the project more (about, page)
 - [ ] deploy too netlify (add a deploy button) 
 - [ ] document the process 
 

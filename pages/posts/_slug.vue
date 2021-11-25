@@ -10,10 +10,8 @@ import 'prismjs/components/prism-graphql'
 import 'prismjs/components/prism-javascript'
 
 export default {
-  async asyncData({ $notion, params, error }) {
-    const pageTable = await $notion.getPageTable(
-      "ceef6f1a895a46b2a0e4a87b41405547"
-    )
+  async asyncData({ $notion, params, error, $config: { notionTableId } }) {
+    const pageTable = await $notion.getPageTable(notionTableId)
     const page = pageTable.find(
       (item) => item.public && item.slug === params.slug
     )
@@ -31,10 +29,10 @@ export default {
   head() {
     const post = this.page
     const title = post?.title
-    const description = post?.description || "aymaneMx's blog about python, django, vuejs."
+    const description = post?.description || process.env.DEV_DESCRIPTION
     const image = post?.thumbnail[0].url || null
     const tags = post.tags || title
-    const href = `https://nuxt.aymanemx.com/posts/${post.slug}`
+    const href = process.env.BASE_URL + `/posts/${post.slug}`
     const meta = this.$prepareMeta(
       {title, description, image, keywords: `${tags}`, url: href},
       [{name: "article:published-time", content: post?.created_at || null},]
