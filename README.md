@@ -3,6 +3,9 @@ a portfolio for developers w/ a blog powered by [Notion](https://www.notion.so/)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aymaneMx/nuxt-portfolio-dev)
 
+Demo: https://aymaneMx.com
+
+
 **Features** 
 
 - :smiling_face_with_three_hearts: minimal and clean portfolio 
@@ -60,4 +63,11 @@ the id is: ceef6f1a895a46b2a0e4a87b41405547
 5. get your Google analytics id (optional)
 6. now you can click to the deploy button 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aymaneMx/nuxt-portfolio-dev)
+
+
+### Credits 
+
+- :moon: The dark mode : [eggsy](https://github.com/eggsy/website)
+- :art: the minimal design : [Monotone](https://github.com/dev-ggaurav/Monotone)
+- :star: The open source section : [mouadziani](https://github.com/MouadZIANI/mouadziani.com) and [smakosh](https://github.com/smakosh/smakosh.com)
 
