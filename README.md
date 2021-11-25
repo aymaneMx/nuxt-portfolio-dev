@@ -1,6 +1,8 @@
 # nuxt-portfolio-dev
 a portfolio for developers 
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aymaneMx/nuxt-portfolio-dev)
+
 **Features** 
 
 - :smiling_face_with_three_hearts: minimal and clean portfolio 
@@ -65,3 +67,5 @@ the id is: ceef6f1a895a46b2a0e4a87b41405547
 ```
 5. get your Google analytics id (optional)
 6. now you can click to the deploy button 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aymaneMx/nuxt-portfolio-dev)
+
