@@ -1,5 +1,5 @@
 # nuxt-portfolio-dev
-a portfolio for developers 
+a portfolio for developers w/ a blog powered by [Notion](https://www.notion.so/) 
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aymaneMx/nuxt-portfolio-dev)
 
@@ -16,7 +16,7 @@ a portfolio for developers
 - :rocket: One click deployment to netlify 
 
 
-**Build Setup**
+### Build Setup
 
 create a `.env.development` file with the following variables
 
@@ -46,15 +46,7 @@ $ yarn dev
 ```
 
 
-**todo**
-
-- [x] how to duplicate the same template easily 
-- [x] clean the project more (about, page)
-- [ ] deploy too netlify (add a deploy button) 
-- [ ] document the process 
-
-
-**Prerequisites**
+### Prerequisites
 
 1. create [Notion](https://www.notion.so/) account
 2. duplicate [this template](https://aymanemx.notion.site/aymanemx/ceef6f1a895a46b2a0e4a87b41405547?v=8427738adccd4b2a8c28156be3757156) by clicking on duplicate button oon top of the page.
