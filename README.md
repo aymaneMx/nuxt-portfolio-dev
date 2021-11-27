@@ -21,8 +21,8 @@ Demo: https://aymaneMx.com
 ### Prerequisites
 
 1. create [Notion](https://www.notion.so/) account 
-2. duplicate [this template](https://aymanemx.notion.site/aymanemx/ceef6f1a895a46b2a0e4a87b41405547?v=8427738adccd4b2a8c28156be3757156) by clicking on duplicate button oon top of the page.
-3. make your notion table public (by clicking to share button on top of the page)
+2. duplicate [this template](https://aymanemx.notion.site/aymanemx/ceef6f1a895a46b2a0e4a87b41405547?v=8427738adccd4b2a8c28156be3757156) by clicking on "duplicate" button located at the top of the page.
+3. make your notion table public (by clicking on "share" button located at the top of the page)
 4. Grab the table id from the table link:
 eg: 
 ```
