@@ -16,22 +16,23 @@ Demo: https://aymaneMx.com
 - :dizzy: Eslint & Prettier configured
 - :chart_with_upwards_trend: google analytics integration 
 - :zap: generate sitemap (visit /sitemap.xml)
-- :rocket: One click deployment to netlify 
+- :rocket: one click deployment to netlify 
 
 ### Prerequisites
 
 1. create [Notion](https://www.notion.so/) account 
 2. duplicate [this template](https://aymanemx.notion.site/aymanemx/ceef6f1a895a46b2a0e4a87b41405547?v=8427738adccd4b2a8c28156be3757156) by clicking on "duplicate" button located at the top of the page.
 3. make your notion table public (by clicking on "share" button located at the top of the page)
-4. Grab the table id from the table link:
+4. grab the table id from the table link:
 eg: 
 ```
 link: https://aymanemx.notion.site/aymanemx/ceef6f1a895a46b2a0e4a87b41405547?v=8427738adccd4b2a8c28156be3757156
 id: ceef6f1a895a46b2a0e4a87b41405547
 ```
-5. Do the same thing for about page id
+5. do the same thing for about page id (we gonna use it as an env variable NOTION_ABOUT_PAGE_ID)
 5. get your Google analytics id (optional)
 6. now you can click to the deploy button and fill the netlify form
+
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aymaneMx/nuxt-portfolio-dev)
 
 
