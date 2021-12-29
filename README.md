@@ -66,6 +66,14 @@ $ yarn install
 $ yarn dev
 ```
 
+
+### Sites using this template 🌎
+List of portfolios that are using this template.
+
+- [AymaneMx's Blog](https://aymanemx.com)
+
+if you're using it too, we'd be happy to [feature](https://github.com/aymaneMx/nuxt-portfolio-dev/issues/26) you here 
+
 ### Credits 
 
 - :moon: The dark mode : [eggsy](https://github.com/eggsy/website)
