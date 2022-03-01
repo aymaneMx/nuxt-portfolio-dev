@@ -9628,10 +9628,10 @@ vue-no-ssr@^1.1.1:
   resolved "https://registry.yarnpkg.com/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz#875f3be6fb0ae41568a837f3ac1a80eaa137b998"
   integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
 
-vue-notion@^1.3.4:
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/vue-notion/-/vue-notion-1.3.4.tgz#1f521f4d5e383741535b29ce52b471699477102e"
-  integrity sha512-v0zuwxUWRH4fsePn9sSc1V4HOrDn5B1Sx2RE02fIP0f8kL507qmp2Nqht/2uOIPCwyjMFQgGXaeL1rStYUVcwQ==
+vue-notion@^1.4.1:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/vue-notion/-/vue-notion-1.4.1.tgz#9e3daca332eb433685805fc6b32248cbed147cb9"
+  integrity sha512-D+QUkJYMkczCCHKA7Ikl1leUH+Ym6a6nTKo4bEybQUXz58JVIoq8dGLLmqLFr/gFXyvKuLyByqJbYUkRN6D+bw==
   dependencies:
     cross-fetch "^3.0.6"
     defu "^5.0.0"
