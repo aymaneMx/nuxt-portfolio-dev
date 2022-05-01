@@ -1458,10 +1458,10 @@
     minimatch "^3.0.4"
     sitemap "^4.1.1"
 
-"@nuxtjs/tailwindcss@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-5.0.2.tgz#c135983077467e1eba765dcbed18e196c34fb7cf"
-  integrity sha512-uxMFiL2VsyEUSv5q4ao1ILbSGIg3sdV3364o1f8Pq0oL2K3z3qPc03Qs+fzv1wm5CrdXvE+kxCBD/Obf0+6TPg==
+"@nuxtjs/tailwindcss@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-5.0.3.tgz#96a8149d3a14f6144ce7d3a52d923bf0a36e5b31"
+  integrity sha512-nkr5/K/ILQs63414JqCyBApaAE5EKZ3dq9u8O98LryS91O5pqnvhvbD6aRPmIgf6zDhFfzlfCB040GUSAa03og==
   dependencies:
     "@nuxt/kit" "npm:@nuxt/kit-edge@latest"
     "@nuxt/postcss8" "^1.1.3"
