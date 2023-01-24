@@ -1,7 +1,7 @@
 module.exports = {
   darkMode: 'class',
   future: {},
-  purge: [],
+  content: [],
   theme: {
     extend: {
       colors: {
