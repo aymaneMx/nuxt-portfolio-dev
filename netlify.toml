@@ -6,15 +6,15 @@
 
 
 [template.environment]
-  BASE_URL=""
-  GOOGLE_ANALYTICS_ID=""
-  NOTION_TABLE_ID="set your notion table id here (for testing use ceef6f1a895a46b2a0e4a87b41405547)"
-  NOTION_ABOUT_PAGE_ID="set your about page id here (for testing use ad2346af0894443d8906cf78de4f310f)"
-  GITHUB_USERNAME=""
-  DEV_LOGO="set your name logo (required)"
-  DEV_NAME="your full name (required)"
-  DEV_DESCRIPTION="tell us a little bit about you (required)"
-  DEV_ROLE="what's your role as a developer? (eg Backend Developer) (required)"
-  DEV_GITHUB_LINK=""
-  DEV_TWITTER_LINK=""
-  DEV_LINKEDIN_LINK=""
+  BASE_URL=https://aymanemx.com
+  GOOGLE_ANALYTICS_ID=
+  NOTION_TABLE_ID="ceef6f1a895a46b2a0e4a87b41405547"
+  NOTION_ABOUT_PAGE_ID="ad2346af0894443d8906cf78de4f310f"
+  GITHUB_USERNAME=aymaneMx
+  DEV_LOGO="AymaneMx"
+  DEV_NAME="Aymane max"
+  DEV_DESCRIPTION="a passionate Python developer from Morocco who loves to build and deliver quality products."
+  DEV_ROLE="Software Engineer"
+  DEV_GITHUB_LINK="https://github.com/aymaneMx"
+  DEV_TWITTER_LINK="https://twitter.com/aymane_max"
+  DEV_LINKEDIN_LINK="https://www.linkedin.com/in/aymane-mimouni/"
