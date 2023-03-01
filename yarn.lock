@@ -3495,12 +3495,12 @@ create-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/create-require/-/create-require-1.1.1.tgz#c1d7e8f1e5f6cfc9ff65f9cd352d37348756c333"
   integrity sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==
 
-cross-fetch@^3.0.6:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.4.tgz#9723f3a3a247bf8b89039f3a380a9244e8fa2f39"
-  integrity sha512-1eAtFWdIubi6T4XPy6ei9iUFoKpUkIF971QLN8lIvvvwueI65+Nw5haMNKUwfJxabqlIIDODJKGrQ66gxC0PbQ==
+cross-fetch@^3.1.5:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/cross-fetch/-/cross-fetch-3.1.5.tgz#e1389f44d9e7ba767907f7af8454787952ab534f"
+  integrity sha512-lvb1SBsI0Z7GDwmuid+mU3kWVBwTVUbe7S0H52yaaAdQOXq2YktTCZdlAcNKFzE6QtRz0snpw9bNiPeOIkkQvw==
   dependencies:
-    node-fetch "2.6.1"
+    node-fetch "2.6.7"
 
 cross-spawn@^7.0.2, cross-spawn@^7.0.3:
   version "7.0.3"
@@ -6818,10 +6818,12 @@ node-fetch-native@^1.0.1:
   resolved "https://registry.yarnpkg.com/node-fetch-native/-/node-fetch-native-1.0.1.tgz#1dfe78f57545d07e07016b7df4c0cb9d2ff416c7"
   integrity sha512-VzW+TAk2wE4X9maiKMlT+GsPU4OMmR1U9CrHSmd3DFLn2IcZ9VJ6M6BBugGfYUnPCLSYxXdZy17M0BEJyhUTwg==
 
-node-fetch@2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
-  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
+node-fetch@2.6.7:
+  version "2.6.7"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
+  integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
+  dependencies:
+    whatwg-url "^5.0.0"
 
 node-fetch@^2.6.1:
   version "2.6.6"
@@ -10111,10 +10113,10 @@ vue-eslint-parser@^9.0.1, vue-eslint-parser@^9.0.3:
     lodash "^4.17.21"
     semver "^7.3.6"
 
-vue-fragment@^1.5.1:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/vue-fragment/-/vue-fragment-1.5.2.tgz#310017170c564c4aad95da14c185c92c6784fd3c"
-  integrity sha512-KEW0gkeNOLJjtXN4jqJhTazez5jtrwimHkE5Few/VxblH4F9EcvJiEsahrV5kg5uKd5U8du4ORKS6QjGE0piYA==
+vue-fragment@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/vue-fragment/-/vue-fragment-1.6.0.tgz#2ac0ff656b74fa87d049a003b5dcd5befe9185cc"
+  integrity sha512-a5T8ZZZK/EQzgVShEl374HbobUJ0a7v12BzOzS6Z/wd/5EE/5SffcyHC+7bf9hP3L7Yc0hhY/GhMdwFQ25O/8A==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
@@ -10144,14 +10146,14 @@ vue-no-ssr@^1.1.1:
   resolved "https://registry.yarnpkg.com/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz#875f3be6fb0ae41568a837f3ac1a80eaa137b998"
   integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
 
-vue-notion@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/vue-notion/-/vue-notion-1.4.3.tgz#15d33287ca03832e1614d28854cb74ab54e00e06"
-  integrity sha512-SqQdCLknZ3r/vO4/bphwn9tM6xH8sIEnA9YZm6I3MoeCG2kq+R2Nwb66z8XdgVnjw7HrqWV0gW5W05jg5Pb99A==
+vue-notion@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/vue-notion/-/vue-notion-1.5.1.tgz#505260d50757541a10126bbe4acd9b76091121d2"
+  integrity sha512-6gpsa5pElYd+/N4PbydoHJTBHgzm6I+WoMbQQtRV6CsdRR2isPNuoRJFKFMlYHGwXyLOp3pNSF5j1f448hHjVQ==
   dependencies:
-    cross-fetch "^3.0.6"
-    defu "^5.0.0"
-    vue-fragment "^1.5.1"
+    cross-fetch "^3.1.5"
+    defu "^6.1.2"
+    vue-fragment "^1.6.0"
     vue-prism-component "^1.2.0"
 
 vue-prism-component@^1.2.0:
