@@ -30,7 +30,7 @@
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-vue": "^9.10.0",
     "postcss": "^8.4.20",
-    "prettier": "^2.8.7",
+    "prettier": "^2.8.8",
     "vue-notion": "^1.5.1"
   }
 }
