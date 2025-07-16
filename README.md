@@ -4,7 +4,7 @@ a portfolio for developers w/ a blog powered by [Notion](https://www.notion.so/)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/aymaneMx/nuxt-portfolio-dev)
 
-Demo: https://aymaneMx.com
+Demo: https://aymane.me
 
 **Features**
 
@@ -147,7 +147,7 @@ $ yarn dev
 
 List of portfolios that are using this template.
 
-- [AymaneMx's Blog](https://aymanemx.com)
+- [AymaneMx's Blog](https://aymane.me)
 
 if you're using it too, we'd be happy to [feature](https://github.com/aymaneMx/nuxt-portfolio-dev/issues/26) you here
 
