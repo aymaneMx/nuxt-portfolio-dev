@@ -1,12 +1,18 @@
 module.exports = {
   darkMode: 'class',
-  future: {},
-  purge: [],
+  content: [
+    './components/**/*.{vue,js,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './nuxt.config.{js,ts}',
+    './app.vue',
+  ],
   theme: {
     extend: {
       colors: {
-        'primary': '#4c1d95'
-      }
+        primary: '#4c1d95',
+      },
     },
   },
   plugins: [],

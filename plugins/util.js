@@ -1,9 +1,11 @@
 /* Import plugins */
-import prepareMeta from "./utils/prepareMeta"
+import prepareMeta from './utils/prepareMeta'
 
-/* Export and inject plugin */
-const Util = (_, inject) => {
-  inject("prepareMeta", prepareMeta)
-}
-
-export default Util
+/* Export and provide plugin */
+export default defineNuxtPlugin(() => {
+  return {
+    provide: {
+      prepareMeta: prepareMeta,
+    },
+  }
+})
